@@ -16,9 +16,13 @@
     "ebook": "https://www.amazon.com/Perfect-Run-Maxime-J-Durand-ebook/dp/B08WL8CS8B",
     "sample": "https://read.amazon.com/kp/embed?asin=B08WL8CS8B&preview=newtab",
     "readyChapters": 3,
+    "translatedUnits": 3,
+    "excerptUnits": 0,
+    "readingUnits": 3,
     "firstReadHref": "/books/the-perfect-run/01",
     "unit": "章",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "mother-of-learning",
@@ -35,9 +39,13 @@
     "note": "包含长句、心理描写与魔法术语。",
     "chapterCount": 3,
     "readyChapters": 3,
+    "translatedUnits": 3,
+    "excerptUnits": 0,
+    "readingUnits": 3,
     "firstReadHref": "/books/mother-of-learning/01",
     "unit": "章",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "super-supportive",
@@ -54,9 +62,13 @@
     "note": "开篇情境沉重；后续包含较多世界设定。",
     "chapterCount": 3,
     "readyChapters": 3,
+    "translatedUnits": 3,
+    "excerptUnits": 0,
+    "readingUnits": 3,
     "firstReadHref": "/books/super-supportive/01",
     "unit": "章",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "float",
@@ -73,9 +85,13 @@
     "note": "原版与出版版并存，部分内容含付费阅读机制。",
     "chapterCount": 3,
     "readyChapters": 3,
+    "translatedUnits": 3,
+    "excerptUnits": 0,
+    "readingUnits": 3,
     "firstReadHref": "/books/float/01",
     "unit": "章",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "the-qb-bad-boy-and-me",
@@ -90,9 +106,14 @@
     "appeal": "美式校园、约会与青春选择。",
     "note": "现页名为 Sidelined: The QB and Me；含成人内容和付费章节。",
     "chapterCount": 3,
-    "readyChapters": 0,
+    "readyChapters": 3,
+    "translatedUnits": 0,
+    "excerptUnits": 3,
+    "readingUnits": 3,
+    "firstReadHref": "/books/the-qb-bad-boy-and-me/01",
     "unit": "章",
-    "originalOnly": true
+    "originalOnly": false,
+    "excerptOnly": true
   },
   {
     "id": "the-wandering-inn",
@@ -109,9 +130,13 @@
     "note": "篇幅很长，适合慢慢进入。",
     "chapterCount": 3,
     "readyChapters": 1,
+    "translatedUnits": 1,
+    "excerptUnits": 0,
+    "readingUnits": 1,
     "firstReadHref": "/books/the-wandering-inn/01",
     "unit": "章",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "heartstopper",
@@ -127,9 +152,13 @@
     "note": "漫画按原站分话；后续涉及心理健康等话题。",
     "chapterCount": 3,
     "readyChapters": 3,
+    "translatedUnits": 3,
+    "excerptUnits": 0,
+    "readingUnits": 3,
     "firstReadHref": "/books/heartstopper/01",
     "unit": "话",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "honestly",
@@ -145,9 +174,13 @@
     "note": "Reedsy 比赛入围作品，人物对话具有讽刺性。",
     "chapterCount": 1,
     "readyChapters": 1,
+    "translatedUnits": 1,
+    "excerptUnits": 0,
+    "readingUnits": 1,
     "firstReadHref": "/books/honestly/01",
     "unit": "篇",
-    "originalOnly": false
+    "originalOnly": false,
+    "excerptOnly": false
   },
   {
     "id": "yes-mr-knight",
@@ -162,8 +195,13 @@
     "appeal": "现代都市背景的成人言情。",
     "note": "18+，成人情节比重高；Galatea 含付费阅读机制。",
     "chapterCount": 3,
-    "readyChapters": 0,
+    "readyChapters": 1,
+    "translatedUnits": 0,
+    "excerptUnits": 1,
+    "readingUnits": 1,
+    "firstReadHref": "/books/yes-mr-knight/01",
     "unit": "章",
-    "originalOnly": true
+    "originalOnly": false,
+    "excerptOnly": true
   }
 ]

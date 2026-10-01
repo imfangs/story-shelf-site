@@ -1,0 +1,29 @@
+{
+  "bookId": "yes-mr-knight",
+  "kind": "excerpt",
+  "status": "research_excerpt_completed",
+  "source": "https://galatea.com/en/story/yes-mr-knight-1211",
+  "sourceCoverage": "Official public first-chapter preview; this page does not claim a complete chapter.",
+  "sourceBlocks": 56,
+  "selectedBlocks": 22,
+  "selectedWords": 280,
+  "selectedRanges": [
+    [
+      "p0001",
+      "p0015"
+    ],
+    [
+      "p0044",
+      "p0046"
+    ],
+    [
+      "p0050",
+      "p0053"
+    ]
+  ],
+  "provenance": "licensed",
+  "authorizationBasis": "User confirmed rights earlier and requested partial translation for research on 2026-10-01.",
+  "review": "Every selected paragraph was read and translated directly; no graphic sexual activity or sexualized physical description reproduced. Non-graphic adult gossip remains part of the character dialogue. Omitted ranges and editor observations are explicitly labeled.",
+  "sourceSha256": "bc3a5263bbf926068b480d5f12cc181cf065c4add85ea6dd0fa1d68f9a2ce53d",
+  "translationSha256": "50ffd7a923ef1a333986ec1dcd478225223187f22aa742bfbec8ebc90c4819b9"
+}

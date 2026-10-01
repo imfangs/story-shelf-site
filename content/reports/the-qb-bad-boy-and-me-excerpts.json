@@ -1,0 +1,123 @@
+{
+  "bookId": "the-qb-bad-boy-and-me",
+  "checkedAt": "2026-10-01T05:17:22.166690+00:00",
+  "status": "excerpts_completed",
+  "kind": "excerpt",
+  "officialTitle": "Sidelined: The QB and Me",
+  "previousTitle": "The QB Bad Boy and Me",
+  "chineseTitle": "四分卫与我",
+  "edition": "官方 Wattpad Originals 连载版；不是纸书出版版。",
+  "provenance": "licensed",
+  "authorizationBasis": "沿用项目 AGENTS.md 中的用户版权授权声明，以及本轮“这个可以做一些翻译，我们主要是调研”的明确选段翻译目标。",
+  "scope": "前三章各提供1至2段连续场景的中文节选；所选段落完整翻译，保留顺序与段落ID。不是前三章完整译文。",
+  "historicalReport": "content/reports/the-qb-bad-boy-and-me.json",
+  "historicalReportPreserved": true,
+  "selectionMethod": "本任务先逐段阅读候选范围，再仅翻译已确认非性化的段落；没有运行全章翻译，也没有把混合原章发送给外部翻译模型。",
+  "chapters": [
+    {
+      "chapter": 1,
+      "titleZh": "再熬一年",
+      "officialTitle": "(1) \"Are you lost?\"",
+      "sourceUrl": "https://www.wattpad.com/478363596-sidelined-the-qb-and-me-1-are-you-lost",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/01.json",
+      "sourceSha256": "80029227700c1ddd8546ff59b22c67dd706ce213a1e8ee3d2c41056056ecd535",
+      "selectionFile": "private/sources/the-qb-bad-boy-and-me/01-selection.json",
+      "translationFile": "content/chapters/the-qb-bad-boy-and-me/01.md",
+      "sourceBlocks": 100,
+      "selectedSourceBlocks": 13,
+      "translationBlocks": 13,
+      "selectedEnglishWords": 535,
+      "selectedRanges": [
+        {
+          "firstId": "p0001",
+          "lastId": "p0008"
+        },
+        {
+          "firstId": "p0036",
+          "lastId": "p0040"
+        }
+      ],
+      "translationStatus": "excerpt_complete",
+      "fullChapterTranslation": false,
+      "translationSha256": "0816f909515cd4160e4c09a91df230b53a68ddf0b7092a3f322169f8f28bf033",
+      "translationReview": "对照所选原段逐句复核；未压缩、概括、合并或补写原段。中文节选标题、未收录提示和阅读观察单独标明。"
+    },
+    {
+      "chapter": 2,
+      "titleZh": "厨房里的谈话",
+      "officialTitle": "(2) \"I am so offended,\"",
+      "sourceUrl": "https://www.wattpad.com/479318797-sidelined-the-qb-and-me-2-i-am-so-offended",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/02.json",
+      "sourceSha256": "02d84af17275fc2aa2e76d054580ddd1ddb283f9c72941dc88faac434329316d",
+      "selectionFile": "private/sources/the-qb-bad-boy-and-me/02-selection.json",
+      "translationFile": "content/chapters/the-qb-bad-boy-and-me/02.md",
+      "sourceBlocks": 99,
+      "selectedSourceBlocks": 10,
+      "translationBlocks": 10,
+      "selectedEnglishWords": 394,
+      "selectedRanges": [
+        {
+          "firstId": "p0041",
+          "lastId": "p0050"
+        }
+      ],
+      "translationStatus": "excerpt_complete",
+      "fullChapterTranslation": false,
+      "translationSha256": "5d943cc86d7148924a0e0fc734bd1a9d51dd49f383260a29f469ff94920ac923",
+      "translationReview": "对照所选原段逐句复核；未压缩、概括、合并或补写原段。中文节选标题、未收录提示和阅读观察单独标明。"
+    },
+    {
+      "chapter": 3,
+      "titleZh": "修车费与周末计划",
+      "officialTitle": "(3) \"You totally did!\"",
+      "sourceUrl": "https://www.wattpad.com/481228287-sidelined-the-qb-and-me-3-you-totally-did",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/03.json",
+      "sourceSha256": "794d296e6349dfd6aa6320cba70bcaaaafdc7e459a56cb0fea88a703d5a47fa3",
+      "selectionFile": "private/sources/the-qb-bad-boy-and-me/03-selection.json",
+      "translationFile": "content/chapters/the-qb-bad-boy-and-me/03.md",
+      "sourceBlocks": 88,
+      "selectedSourceBlocks": 21,
+      "translationBlocks": 21,
+      "selectedEnglishWords": 588,
+      "selectedRanges": [
+        {
+          "firstId": "p0001",
+          "lastId": "p0009"
+        },
+        {
+          "firstId": "p0077",
+          "lastId": "p0088"
+        }
+      ],
+      "translationStatus": "excerpt_complete",
+      "fullChapterTranslation": false,
+      "translationSha256": "0f642aadb75da2d99d8d29463b4d267a0885562f57f7e728323bee4290b94b4f",
+      "translationReview": "对照所选原段逐句复核；未压缩、概括、合并或补写原段。中文节选标题、未收录提示和阅读观察单独标明。"
+    }
+  ],
+  "checks": {
+    "selectedParagraphIdsUnique": true,
+    "selectedParagraphOrderMatchesSource": true,
+    "translationIdsMatchSelection": true,
+    "completeTranslationWithinSelectedParagraphs": true,
+    "selectionReviewedForNonSexualContent": true,
+    "omissionLabelsPresent": true,
+    "readingObservationsSeparateFromSource": true,
+    "originalSourceFilesUnchanged": true,
+    "outsideModelTranslationInvoked": false,
+    "releaseValidation": "由主任务在集成 excerpt 类型后运行；本报告的结构与内容核对不代替发布检查。"
+  },
+  "limitations": [
+    "未收录段落中既有普通情节，也有不能翻译的未成年人性化描写；没有把遗漏全部归因于内容限制。",
+    "本次完成的是调研用节选；完整章节翻译的原有限制仍然存在。",
+    "阅读观察仅针对小说表达，不把虚构人物或情节当作现实行为证据。"
+  ],
+  "totals": {
+    "readingUnits": 3,
+    "originalSourceBlocks": 287,
+    "selectedSourceBlocks": 44,
+    "translationBlocks": 44,
+    "selectedEnglishWords": 1517,
+    "fullChaptersTranslated": 0
+  }
+}

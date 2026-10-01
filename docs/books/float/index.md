@@ -12,9 +12,9 @@ title: "Float"
 
 ## 阅读目录
 
-<p class="content-status">已收录 3 章完整中文内容。</p>
+<p class="content-status">已收录 3 章完整中文译文。</p>
 
-<ul class="pending-chapters"><li><a href="/books/float/01">第 1 章</a><span>译文</span></li><li><a href="/books/float/02">第 2 章</a><span>译文</span></li><li><a href="/books/float/03">第 3 章</a><span>译文</span></li></ul>
+<ul class="pending-chapters"><li><a href="/books/float/01">第 1 章</a><span>中文译文</span></li><li><a href="/books/float/02">第 2 章</a><span>中文译文</span></li><li><a href="/books/float/03">第 3 章</a><span>中文译文</span></li></ul>
 
 ## 关于这部作品
 

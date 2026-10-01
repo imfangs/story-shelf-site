@@ -14,7 +14,7 @@ title: "Heartstopper"
 
 <p class="content-status">已收录 3 话，按原站前三次正文更新阅读。图下附中文对白与文字。</p>
 
-<ul class="pending-chapters"><li><a href="/books/heartstopper/01">第 1 话：1-1</a><span>译文</span></li><li><a href="/books/heartstopper/02">第 2 话：1-2</a><span>译文</span></li><li><a href="/books/heartstopper/03">第 3 话：1-3</a><span>译文</span></li></ul>
+<ul class="pending-chapters"><li><a href="/books/heartstopper/01">第 1 话：1-1</a><span>中文译文</span></li><li><a href="/books/heartstopper/02">第 2 话：1-2</a><span>中文译文</span></li><li><a href="/books/heartstopper/03">第 3 话：1-3</a><span>中文译文</span></li></ul>
 
 ## 关于这部作品
 

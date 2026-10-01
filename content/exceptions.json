@@ -1,15 +1,21 @@
 {
   "the-qb-bad-boy-and-me": {
-    "status": "original-only",
-    "reason": "The opening chapters contain sexualized descriptions of a character established as approximately 17. Copyright authorization and source access are confirmed separately; a complete translation is not generated.",
-    "publicNote": "本站暂未收录这部作品的译文，可通过原作入口阅读。",
-    "requiredChapters": []
+    "status": "excerpt-only",
+    "reason": "User requested research excerpts. Publish only selected non-sexual scenes from chapters 1–3; excluded sexualized-minor content is not reproduced.",
+    "publicNote": "已收录前三章的三组中文节选，保留校园、家庭与普通人物互动场景；不是完整章节，跳段处均有说明。",
+    "requiredChapters": [
+      1,
+      2,
+      3
+    ]
   },
   "yes-mr-knight": {
-    "status": "original-only",
-    "reason": "The available opening contains explicit sexual activity. A complete translation of this remotely sourced material is not generated.",
-    "publicNote": "本站暂未收录这部作品的译文，可通过原作入口阅读。",
-    "requiredChapters": []
+    "status": "excerpt-only",
+    "reason": "User requested research excerpts. Publish non-graphic work, messaging and character dialogue from the official first-chapter preview; explicit sexual material is not reproduced.",
+    "publicNote": "已收录第一章的中文节选，包括工作、短信和人物评价；不是完整章节，跳段处均有说明。",
+    "requiredChapters": [
+      1
+    ]
   },
   "the-wandering-inn": {
     "status": "source-access",

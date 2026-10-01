@@ -4,20 +4,26 @@
       "id": "the-perfect-run",
       "requested": 3,
       "translated": 3,
+      "translatedUnits": 3,
+      "excerptUnits": 0,
+      "readingUnits": 3,
       "exception": null,
       "chapters": [
         {
           "title": "第 1 章：快速存档",
+          "kind": "translation",
           "href": "/books/the-perfect-run/01",
           "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/569225/1-quicksave"
         },
         {
           "title": "第 2 章：剧情分支",
+          "kind": "translation",
           "href": "/books/the-perfect-run/02",
           "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/569531/2-story-branching"
         },
         {
           "title": "第 3 章：有荣誉的人",
+          "kind": "translation",
           "href": "/books/the-perfect-run/03",
           "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/570503/3-men-of-honor"
         }
@@ -27,20 +33,26 @@
       "id": "mother-of-learning",
       "requested": 3,
       "translated": 3,
+      "translatedUnits": 3,
+      "excerptUnits": 0,
+      "readingUnits": 3,
       "exception": null,
       "chapters": [
         {
           "title": "早安，哥哥",
+          "kind": "translation",
           "href": "/books/mother-of-learning/01",
           "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301778/1-good-morning-brother"
         },
         {
           "title": "生活中的小麻烦",
+          "kind": "translation",
           "href": "/books/mother-of-learning/02",
           "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301781/2-lifes-little-problems"
         },
         {
           "title": "苦涩的真相",
+          "kind": "translation",
           "href": "/books/mother-of-learning/03",
           "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301784/3-the-bitter-truth"
         }
@@ -50,20 +62,26 @@
       "id": "super-supportive",
       "requested": 3,
       "translated": 3,
+      "translatedUnits": 3,
+      "excerptUnits": 0,
+      "readingUnits": 3,
       "exception": null,
       "chapters": [
         {
           "title": "气泡里的男孩",
+          "kind": "translation",
           "href": "/books/super-supportive/01",
           "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1096481/one-the-boy-in-the-bubble"
         },
         {
           "title": "失误",
+          "kind": "translation",
           "href": "/books/super-supportive/02",
           "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1097958/two-mistakes"
         },
         {
           "title": "九十秒",
+          "kind": "translation",
           "href": "/books/super-supportive/03",
           "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1100089/three-90-seconds"
         }
@@ -73,20 +91,26 @@
       "id": "float",
       "requested": 3,
       "translated": 3,
+      "translatedUnits": 3,
+      "excerptUnits": 0,
+      "readingUnits": 3,
       "exception": null,
       "chapters": [
         {
           "title": "第 1 章",
+          "kind": "translation",
           "href": "/books/float/01",
           "source": "https://www.wattpad.com/3126334-float-original-edition-chapter-one"
         },
         {
           "title": "第 2 章",
+          "kind": "translation",
           "href": "/books/float/02",
           "source": "https://www.wattpad.com/3168888-float-original-edition-chapter-two"
         },
         {
           "title": "第 3 章",
+          "kind": "translation",
           "href": "/books/float/03",
           "source": "https://www.wattpad.com/3192952-float-original-edition-chapter-three"
         }
@@ -96,17 +120,43 @@
       "id": "the-qb-bad-boy-and-me",
       "requested": 3,
       "translated": 0,
-      "exception": "original-only",
-      "chapters": []
+      "translatedUnits": 0,
+      "excerptUnits": 3,
+      "readingUnits": 3,
+      "exception": "excerpt-only",
+      "chapters": [
+        {
+          "title": "再熬一年（节选）",
+          "kind": "excerpt",
+          "href": "/books/the-qb-bad-boy-and-me/01",
+          "source": "https://www.wattpad.com/478363596-sidelined-the-qb-and-me-1-are-you-lost"
+        },
+        {
+          "title": "厨房里的谈话（节选）",
+          "kind": "excerpt",
+          "href": "/books/the-qb-bad-boy-and-me/02",
+          "source": "https://www.wattpad.com/479318797-sidelined-the-qb-and-me-2-i-am-so-offended"
+        },
+        {
+          "title": "修车费与周末计划（节选）",
+          "kind": "excerpt",
+          "href": "/books/the-qb-bad-boy-and-me/03",
+          "source": "https://www.wattpad.com/481228287-sidelined-the-qb-and-me-3-you-totally-did"
+        }
+      ]
     },
     {
       "id": "the-wandering-inn",
       "requested": 3,
       "translated": 1,
+      "translatedUnits": 1,
+      "excerptUnits": 0,
+      "readingUnits": 1,
       "exception": "source-access",
       "chapters": [
         {
           "title": "1.00",
+          "kind": "translation",
           "href": "/books/the-wandering-inn/01",
           "source": "https://wanderinginn.com/2017/03/03/rw1-00/"
         }
@@ -116,20 +166,26 @@
       "id": "heartstopper",
       "requested": 3,
       "translated": 3,
+      "translatedUnits": 3,
+      "excerptUnits": 0,
+      "readingUnits": 3,
       "exception": null,
       "chapters": [
         {
           "title": "第 1 话：1-1",
+          "kind": "translation",
           "href": "/books/heartstopper/01",
           "source": "https://tapas.io/episode/444220"
         },
         {
           "title": "第 2 话：1-2",
+          "kind": "translation",
           "href": "/books/heartstopper/02",
           "source": "https://tapas.io/episode/451340"
         },
         {
           "title": "第 3 话：1-3",
+          "kind": "translation",
           "href": "/books/heartstopper/03",
           "source": "https://tapas.io/episode/458092"
         }
@@ -139,10 +195,14 @@
       "id": "honestly",
       "requested": 1,
       "translated": 1,
+      "translatedUnits": 1,
+      "excerptUnits": 0,
+      "readingUnits": 1,
       "exception": null,
       "chapters": [
         {
           "title": "说实话",
+          "kind": "translation",
           "href": "/books/honestly/01",
           "source": "https://reedsy.com/short-story/ymkv0n/"
         }
@@ -152,9 +212,21 @@
       "id": "yes-mr-knight",
       "requested": 3,
       "translated": 0,
-      "exception": "original-only",
-      "chapters": []
+      "translatedUnits": 0,
+      "excerptUnits": 1,
+      "readingUnits": 1,
+      "exception": "excerpt-only",
+      "chapters": [
+        {
+          "title": "第一章节选：午休与工作",
+          "kind": "excerpt",
+          "href": "/books/yes-mr-knight/01",
+          "source": "https://galatea.com/en/story/yes-mr-knight-1211"
+        }
+      ]
     }
   ],
-  "translatedUnits": 17
+  "translatedUnits": 17,
+  "excerptUnits": 4,
+  "readingUnits": 21
 }

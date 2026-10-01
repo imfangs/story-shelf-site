@@ -12,9 +12,9 @@ Alden 想成为一名辅助型超级英雄。在超能力者、外星人与系�
 
 ## 阅读目录
 
-<p class="content-status">已收录 3 章完整中文内容。</p>
+<p class="content-status">已收录 3 章完整中文译文。</p>
 
-<ul class="pending-chapters"><li><a href="/books/super-supportive/01">气泡里的男孩</a><span>译文</span></li><li><a href="/books/super-supportive/02">失误</a><span>译文</span></li><li><a href="/books/super-supportive/03">九十秒</a><span>译文</span></li></ul>
+<ul class="pending-chapters"><li><a href="/books/super-supportive/01">气泡里的男孩</a><span>中文译文</span></li><li><a href="/books/super-supportive/02">失误</a><span>中文译文</span></li><li><a href="/books/super-supportive/03">九十秒</a><span>中文译文</span></li></ul>
 
 ## 关于这部作品
 

@@ -19,11 +19,18 @@ export function readChapter(book, number) {
     const index = line.indexOf(':')
     return [line.slice(0, index).trim(), line.slice(index + 1).trim()]
   }))
-  if (!['translation', 'guide'].includes(meta.kind) || !meta.source?.startsWith('https://')) throw Error(`Invalid chapter metadata: ${file}`)
+  let validSource = false
+  try { validSource = new URL(meta.source).protocol === 'https:' } catch {}
+  if (!['translation', 'excerpt', 'guide'].includes(meta.kind) || !validSource) throw Error(`Invalid chapter metadata: ${file}`)
   if (meta.kind === 'translation' && !['user-provided', 'licensed'].includes(meta.provenance)) throw Error(`Missing provenance: ${file}`)
+  if (meta.kind === 'excerpt') {
+    if (meta.provenance !== 'licensed') throw Error(`Missing excerpt provenance: ${file}`)
+    if (!/^\d{2}-selection\.json$/.test(meta.selection || '') || meta.selection !== `${key}-selection.json`) throw Error(`Invalid excerpt selection filename: ${file}`)
+  }
   if (!match[2].trim()) throw Error(`Empty chapter: ${file}`)
   const defaultTitle = book.format === '短篇小说' ? '全文' : `第 ${number} ${book.format === '漫画' ? '话' : '章'}`
-  return { key, number, file, raw, meta, title: meta.title || defaultTitle, body: match[2].trim(), verified: meta.verified === 'true', href: `/books/${book.id}/${key}` }
+  const title = meta.title || defaultTitle
+  return { key, number, file, raw, meta, title: meta.kind === 'excerpt' && !title.includes('节选') ? `${title}（节选）` : title, body: match[2].trim(), verified: meta.verified === 'true', href: `/books/${book.id}/${key}` }
 }
 
 export function listChapters(book) {

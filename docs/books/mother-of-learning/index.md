@@ -12,9 +12,9 @@ title: "Mother of Learning"
 
 ## 阅读目录
 
-<p class="content-status">已收录 3 章完整中文内容。</p>
+<p class="content-status">已收录 3 章完整中文译文。</p>
 
-<ul class="pending-chapters"><li><a href="/books/mother-of-learning/01">早安，哥哥</a><span>译文</span></li><li><a href="/books/mother-of-learning/02">生活中的小麻烦</a><span>译文</span></li><li><a href="/books/mother-of-learning/03">苦涩的真相</a><span>译文</span></li></ul>
+<ul class="pending-chapters"><li><a href="/books/mother-of-learning/01">早安，哥哥</a><span>中文译文</span></li><li><a href="/books/mother-of-learning/02">生活中的小麻烦</a><span>中文译文</span></li><li><a href="/books/mother-of-learning/03">苦涩的真相</a><span>中文译文</span></li></ul>
 
 ## 关于这部作品
 

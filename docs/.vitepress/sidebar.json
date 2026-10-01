@@ -77,7 +77,22 @@
   },
   {
     "text": "The QB Bad Boy and Me",
-    "link": "/books/the-qb-bad-boy-and-me/"
+    "link": "/books/the-qb-bad-boy-and-me/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "再熬一年（节选）",
+        "link": "/books/the-qb-bad-boy-and-me/01"
+      },
+      {
+        "text": "厨房里的谈话（节选）",
+        "link": "/books/the-qb-bad-boy-and-me/02"
+      },
+      {
+        "text": "修车费与周末计划（节选）",
+        "link": "/books/the-qb-bad-boy-and-me/03"
+      }
+    ]
   },
   {
     "text": "The Wandering Inn",
@@ -122,6 +137,13 @@
   },
   {
     "text": "Yes, Mr Knight",
-    "link": "/books/yes-mr-knight/"
+    "link": "/books/yes-mr-knight/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第一章节选：午休与工作",
+        "link": "/books/yes-mr-knight/01"
+      }
+    ]
   }
 ]

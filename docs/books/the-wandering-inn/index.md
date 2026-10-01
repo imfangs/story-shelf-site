@@ -14,7 +14,7 @@ Erin 落入一个陌生世界，成为一家旅店的老板。从打扫房间、
 
 <p class="content-status">已收录首章完整译文。原站第二、三章当前需订阅访问，本站暂未收录。</p>
 
-<ul class="pending-chapters"><li><a href="/books/the-wandering-inn/01">1.00</a><span>译文</span></li></ul>
+<ul class="pending-chapters"><li><a href="/books/the-wandering-inn/01">1.00</a><span>中文译文</span></li></ul>
 
 ## 关于这部作品
 

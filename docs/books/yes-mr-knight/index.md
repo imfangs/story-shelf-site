@@ -8,11 +8,13 @@ title: "Yes, Mr Knight"
 
 Jamie 不想成为又一个爱上老板的人，但富豪 Mason Knight 的出现，让她试图维持的工作与私人生活边界开始动摇。
 
-## 阅读目录
+[阅读第一篇节选](/books/yes-mr-knight/01)
 
-<p class="content-status">本站暂未收录这部作品的译文，可通过原作入口阅读。</p>
+## 节选目录
 
+<p class="content-status">已收录第一章的中文节选，包括工作、短信和人物评价；不是完整章节，跳段处均有说明。</p>
 
+<ul class="pending-chapters"><li><a href="/books/yes-mr-knight/01">第一章节选：午休与工作</a><span>节选译文</span></li></ul>
 
 ## 关于这部作品
 
