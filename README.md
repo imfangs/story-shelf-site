@@ -15,6 +15,7 @@ npm run preview
 
 ```sh
 bash deploy.sh
+npm run verify:live
 ```
 
 公开网站使用 GitHub Pages 与 `stories.fangs.cc`。远端 `deploy` 指向 `imfangs/story-shelf-site`，只推送 `gh-pages` 上的静态构建产物；本地 `main`、原文档案、翻译缓存和内部校对记录不随发布上传。脚本先构建并检查本轮可发布章节完整性，再通过隔离 worktree 更新站点。

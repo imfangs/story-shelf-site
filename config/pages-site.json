@@ -1,0 +1,23 @@
+{
+  "working_directory": "..",
+  "directory": "docs/.vitepress/dist",
+  "project": "story-shelf-reading",
+  "account_id": "667312eae0473e43391af3d4a645e3a9",
+  "branch": "main",
+  "domain": "stories.fangs.cc",
+  "dns_zone": "fangs.cc",
+  "dns_provider": "external",
+  "wrangler": ["npx", "--yes", "wrangler@4.137.0"],
+  "build_command": ["npm", "run", "build"],
+  "before_deploy": [["node", "scripts/validate.mjs", "--release"]],
+  "exclude_files": ["CNAME", ".nojekyll"],
+  "receipt": ".qa/pages-site.json",
+  "verification": {
+    "transport": "curl",
+    "budget_ms": 300000,
+    "timeout_ms": 20000,
+    "retries": 2,
+    "concurrency": 4,
+    "receipt": ".qa/static-integrity.json"
+  }
+}

@@ -8,7 +8,9 @@
     "dev": "npm run content && vitepress dev docs --host 127.0.0.1",
     "build": "npm run content && vitepress build docs && node scripts/validate.mjs",
     "preview": "vitepress preview docs --host 127.0.0.1",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "validate:release": "node scripts/validate.mjs --release",
+    "verify:live": "python3 scripts/verify-live.py"
   },
   "dependencies": { "vitepress": "1.6.4", "vue": "3.5.30" }
 }
