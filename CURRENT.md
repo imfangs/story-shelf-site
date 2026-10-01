@@ -22,10 +22,18 @@
 - `npm run build` 与 `node scripts/validate.mjs --release` 通过；核对段落 ID 顺序与唯一性、乱码／控制字符、源文档案、章节产物和漫画本地图片。
 - 阅读页按每本书独立生成上一章／下一章、目录与手动已读。已修复路由复用、跨标签状态同步、字号保存和损坏存储保护。
 - 本轮 IAB 能渲染页面，但自动点击未产生效果；Chrome 对照确认站点交互正常，实际操作验收转 Chrome。已验证章节翻页、各章已读独立、刷新保存、跨标签字号／已读同步。
-- 原有桌面／手机排版基准继续沿用；最终线上手机与漫画验证待发布后补齐。
+- 正式域名实读：书架显示九部作品、七部可读；进入 The Perfect Run 首章，101 个正文段落及末段可见，下一章／上一章和已读状态通过。漫画第三话五张图均实际解码；手机视口 390 × 844、正文与图片无水平溢出。
+- 稳定手机截图确认标题、作者、字号控件、中文段落清楚，侧栏关闭在屏幕外；初次尺寸切换中的过渡截图未用作最终验收。没有做实体 iPhone 或长期阅读舒适度验证。
 
 ## 发布
 
-目标：`https://stories.fangs.cc/`。GitHub Pages 发布仓库 `imfangs/story-shelf-site` 已创建，尚待上传最终构建、绑定域名并回读 HTTPS。公开仓库仅含构建产物；本地源码和 private/ 不公开。
+**已上线**：[stories.fangs.cc](https://stories.fangs.cc/)；备用入口 [story-shelf-reading.pages.dev](https://story-shelf-reading.pages.dev/)。
 
-下一步：完成正式发布、DNS／证书与线上正文、翻页、已读和漫画加载核对，更新这里的实际网址与发布回执。
+- 正式托管：Cloudflare Pages `story-shelf-reading`；部署 `fa16b570-a5cb-4f75-b5e3-e44a19ce8e57`，运行内容源码 `d78681834e36eaba6738e1d1501a73b7e7360e53`。
+- 2026-10-01 12:15（北京时间）回读：domain active，正常 DNS／TLS；129/129 个公开文件 SHA-256 与本地一致。CNAME 与 .nojekyll 为部署控制文件，显式排除。回执 `.qa/pages-site.json`、`.qa/static-integrity.json`。
+- 备用域名同样 129/129 文件一致，28/28 个简洁阅读路由返回准确构建内容；回执 `.qa/alias-integrity.json`、`.qa/alias-integrity-files.json`。
+- Aliyun DNS 的 stories 记录已从本轮新建的 GitHub 目标改到 `story-shelf-reading.pages.dev`，唯一记录、权重与 TTL 保持。未修改其他域名。
+- GitHub 静态存档 `imfangs/story-shelf-site` 的 gh-pages 为 `7c09951c1fa90f93af13c0ace5647b14ef870228`。初始 GitHub Pages 构建和 DNS 正常，自定义证书长期未生效；没有证据证明签发队列状态。故转 Cloudflare，一次上传后通过 resume 完成域名与验证，没有重复上传。
+- 本地源码、private/、译文校对原始记录不在公开仓库。后续部署入口与说明变更不改变已核验的网页内容。
+
+下一步只涉及上方已明确缺口：取得可读的 The Wandering Inn 1.01／1.02 后，可在同一站补齐；不把两部未译作品或缺页记为已完成。

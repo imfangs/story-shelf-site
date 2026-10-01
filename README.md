@@ -18,7 +18,9 @@ bash deploy.sh
 npm run verify:live
 ```
 
-公开网站使用 GitHub Pages 与 `stories.fangs.cc`。远端 `deploy` 指向 `imfangs/story-shelf-site`，只推送 `gh-pages` 上的静态构建产物；本地 `main`、原文档案、翻译缓存和内部校对记录不随发布上传。脚本先构建并检查本轮可发布章节完整性，再通过隔离 worktree 更新站点。
+公开网站使用 Cloudflare Pages 与 [stories.fangs.cc](https://stories.fangs.cc/)，备用入口为 [story-shelf-reading.pages.dev](https://story-shelf-reading.pages.dev/)。`deploy.sh` 复用 FBT pages-site，先构建并核对本轮可发布章节，再上传和验证；上传后需要接续域名或校验时用 `bash deploy.sh resume`，避免重复上传。
+
+GitHub 静态存档保留在 `imfangs/story-shelf-site`，可用 `bash archive-github.sh` 更新。它只推送 `gh-pages` 上的构建产物；本地 `main`、原文、翻译缓存和内部校对记录不随发布上传。初次 GitHub Pages 的域名、DNS和构建均正确，但自定义证书持续不可用，因此本轮正式托管改用已有的 Cloudflare Pages 路线。
 
 `content/exceptions.json` 明确保存本轮未能提供全文的作品／章节，界面据此显示实际范围；原文访问缺口补齐后，移除对应例外并重新校验，不把例外作为自动跳过任意失败的办法。
 

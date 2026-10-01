@@ -22,7 +22,8 @@ def main():
     if not args.url.startswith('https://'):
         parser.error('Public verification requires HTTPS with normal certificate validation.')
     dist = ROOT / 'docs/.vitepress/dist'
-    static_receipt = ROOT / '.qa/static-integrity.json'
+    report_path = ROOT / args.out
+    static_receipt = report_path.with_name(report_path.stem + '-files.json')
     static_receipt.parent.mkdir(parents=True, exist_ok=True)
     fbt_root = Path(os.environ.get('FBT_ROOT', '/Users/fangs/workspace/fbt'))
     static_command = ['node', str(fbt_root / 'public-preview/scripts/verify_static.mjs'),
