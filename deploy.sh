@@ -19,7 +19,8 @@ else
   git worktree add --detach "$task_deploy_dir" HEAD
   git -C "$task_deploy_dir" checkout --orphan gh-pages
 fi
-git -C "$task_deploy_dir" rm -r --ignore-unmatch . >/dev/null
+# The first orphan checkout stages source files; remove them only in this disposable worktree.
+git -C "$task_deploy_dir" rm -rf --ignore-unmatch . >/dev/null
 cp -R docs/.vitepress/dist/. "$task_deploy_dir/"
 git -C "$task_deploy_dir" add -A
 if git -C "$task_deploy_dir" diff --cached --quiet; then
