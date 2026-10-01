@@ -5,3 +5,6 @@ private/
 tmp/
 .DS_Store
 .env*
+__pycache__/
+*.pyc
+.qa/

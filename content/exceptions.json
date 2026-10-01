@@ -1,0 +1,22 @@
+{
+  "the-qb-bad-boy-and-me": {
+    "status": "original-only",
+    "reason": "The opening chapters contain sexualized descriptions of a character established as approximately 17. Copyright authorization and source access are confirmed separately; a complete translation is not generated.",
+    "publicNote": "本站暂未收录这部作品的译文，可通过原作入口阅读。",
+    "requiredChapters": []
+  },
+  "yes-mr-knight": {
+    "status": "original-only",
+    "reason": "The available opening contains explicit sexual activity. A complete translation of this remotely sourced material is not generated.",
+    "publicNote": "本站暂未收录这部作品的译文，可通过原作入口阅读。",
+    "requiredChapters": []
+  },
+  "the-wandering-inn": {
+    "status": "source-access",
+    "requiredChapters": [
+      1
+    ],
+    "reason": "Official rewritten chapters 1.01 and 1.02 and the Volume 1 Archive alternatives require a Patreon tier or password, confirmed through the existing Chrome profile. Only the publicly available rewritten 1.00 is translated.",
+    "publicNote": "已收录首章完整译文。原站第二、三章当前需订阅访问，本站暂未收录。"
+  }
+}

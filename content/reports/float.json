@@ -1,0 +1,285 @@
+{
+  "bookId": "float",
+  "title": "Float — Original Edition",
+  "checkedAt": "2026-10-01T02:58:38.180990+00:00",
+  "status": "complete",
+  "provenance": "licensed",
+  "authorizationBasis": "用户于本次会话明确声明已获得授权，并要求继续制作直至网站上线。",
+  "translationMethod": "使用项目共享翻译脚本经 FBT Friday 网关生成 8 个段落对齐初稿，所有回执 finishReason=stop；Agent 全文逐段对照英文与中文，修订误译、专名、对白标点和一处编码损坏后回读。",
+  "sourceMethod": "直接读取官方 Wattpad 章节页 window.prefetched 元数据，使用页面提供的公开 text_url.text 接口逐页获取正文，再与该页 HTML 内的 storyText 逐段交叉比对。",
+  "edition": "Original Edition，官方章节标题明确标示原版。",
+  "scope": "原版前三章小说完整正文；第一、二章开头印刷版购买广告及其分隔线排除，均保存在私有原始资料。",
+  "completenessEvidence": {
+    "officialPageCounts": [
+      5,
+      5,
+      3
+    ],
+    "pagesRead": 13,
+    "allApiPagesMatchHtmlStoryText": true,
+    "allLastPagesExplicitlyMarked": true,
+    "allPagesCurrentPartIsBlocked": false,
+    "allPagesIsPaidPreview": true,
+    "paragraphSourceIdsUniqueWithinEachChapter": true,
+    "previousIncompleteExtraction": "先前 Exa 单章入口只返回各章第一页；本次不用该结果作为全文。第一章真正结尾为离家去餐厅前看见 Blake 留下照顾 Isabel；第二章结尾为海滩冲突爆发；第三章结尾为回到姑姑家、上楼进入自己的房间。"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Original Edition: Chapter One",
+      "source": "https://www.wattpad.com/3126334-float-original-edition-chapter-one",
+      "retrievedAt": "2026-10-01T02:52:40.237211+00:00",
+      "sourceFile": "private/sources/float/01.json",
+      "translationFile": "content/chapters/float/01.md",
+      "sourceSha256": "4f9b2b29079864964e6019c86bcc49d435be6e3e9d0ad0549b6510a495332988",
+      "translationSha256": "1d055128ebae8dcefa7e188b50cdfb413fd90bcdaf413a0932ff4878773f3172",
+      "officialPages": 5,
+      "pagesRead": 5,
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.wattpad.com/3126334-float-original-edition-chapter-one",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3126334&page=1",
+          "paragraphs": 18,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 2,
+          "url": "https://www.wattpad.com/3126334-float-original-edition-chapter-one/page/2",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3126334&page=2",
+          "paragraphs": 18,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 3,
+          "url": "https://www.wattpad.com/3126334-float-original-edition-chapter-one/page/3",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3126334&page=3",
+          "paragraphs": 25,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 4,
+          "url": "https://www.wattpad.com/3126334-float-original-edition-chapter-one/page/4",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3126334&page=4",
+          "paragraphs": 29,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 5,
+          "url": "https://www.wattpad.com/3126334-float-original-edition-chapter-one/page/5",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3126334&page=5",
+          "paragraphs": 46,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": true,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        }
+      ],
+      "sourceParagraphs": 134,
+      "translatedParagraphs": 134,
+      "sourceChars": 19999,
+      "translationChars": 6615,
+      "firstParagraph": {
+        "source": "The scorching Florida sunshine battered down on my bare shoulders.",
+        "translation": "炽热的佛罗里达阳光狠狠地烤在我光裸的肩膀上。",
+        "checked": true
+      },
+      "lastParagraph": {
+        "source": "As we pulled out of the driveway, George and Chloe hopping into the front of a cute little silver sedan parked in front of their house, I glanced up into the rearview mirror. Blake stood on the front porch, sighing in annoyance as Isabel tried to climb on top of his shoulders and grab a fistful of his dark hair. So, sure, I was exhausted and sore from spending hours in a tiny airplane seat and sweating like a pig because I had never been in temperatures over sixty-five—but at least I was going to have more fun tonight than Blake Hamilton.",
+        "translation": "我们把车开出车道时，乔治和克洛伊也跳上了停在他们家门前的一辆可爱的银色小轿车前座，我瞥了一眼后视镜。布莱克站在前廊上，烦恼地叹着气，而伊莎贝尔正想爬到他肩膀上，一把揪住他的深色头发。所以，没错，我因为在那窄小的飞机座位上坐了好几个小时而疲惫酸痛，又因为从没经历过超过六十五度（华氏）的高温而汗如雨下——但至少今晚，我会比布莱克·汉密尔顿玩得开心。",
+        "checked": true
+      },
+      "alignment": {
+        "idsInOrder": true,
+        "noDuplicates": true,
+        "noEmptyBlocks": true,
+        "reviewedParagraphs": 134
+      },
+      "missing": [],
+      "verified": true
+    },
+    {
+      "chapter": 2,
+      "title": "Original Edition: Chapter Two",
+      "source": "https://www.wattpad.com/3168888-float-original-edition-chapter-two",
+      "retrievedAt": "2026-10-01T02:52:40.237211+00:00",
+      "sourceFile": "private/sources/float/02.json",
+      "translationFile": "content/chapters/float/02.md",
+      "sourceSha256": "14942740a1c0b53d1974e93badd41ed172c3021069cae1579236e646d02b4cf5",
+      "translationSha256": "11f853c67fc56532e20fc32b33d3187a8f10aaeb3f98801f6ec0105ab639e30c",
+      "officialPages": 5,
+      "pagesRead": 5,
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.wattpad.com/3168888-float-original-edition-chapter-two",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3168888&page=1",
+          "paragraphs": 32,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 2,
+          "url": "https://www.wattpad.com/3168888-float-original-edition-chapter-two/page/2",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3168888&page=2",
+          "paragraphs": 29,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 3,
+          "url": "https://www.wattpad.com/3168888-float-original-edition-chapter-two/page/3",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3168888&page=3",
+          "paragraphs": 27,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 4,
+          "url": "https://www.wattpad.com/3168888-float-original-edition-chapter-two/page/4",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3168888&page=4",
+          "paragraphs": 27,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 5,
+          "url": "https://www.wattpad.com/3168888-float-original-edition-chapter-two/page/5",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3168888&page=5",
+          "paragraphs": 56,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": true,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        }
+      ],
+      "sourceParagraphs": 169,
+      "translatedParagraphs": 169,
+      "sourceChars": 19056,
+      "translationChars": 6334,
+      "firstParagraph": {
+        "source": "There was one last drop of chocolate milkshake in my cup, but no matter how I moved my straw, I just couldn't reach it. I was pretty certain that the people sitting in the booth next to us were watching me with raised eyebrows, but that didn't matter to me. What mattered was that I had just chugged the best milkshake of my entire life.",
+        "translation": "杯子里还剩最后一滴巧克力奶昔，可无论我怎么挪动吸管，就是吸不到。我十分肯定隔壁卡座的人正扬着眉毛看我，但我根本不在乎。重要的是，我刚刚咕咚咕咚喝完了这辈子最棒的一杯奶昔。",
+        "checked": true
+      },
+      "lastParagraph": {
+        "source": "I'd never been to a party before, but I knew—instinctively—that this one was over.",
+        "translation": "我从没来过派对，但我凭直觉知道——这场派对，结束了。",
+        "checked": true
+      },
+      "alignment": {
+        "idsInOrder": true,
+        "noDuplicates": true,
+        "noEmptyBlocks": true,
+        "reviewedParagraphs": 169
+      },
+      "missing": [],
+      "verified": true
+    },
+    {
+      "chapter": 3,
+      "title": "Original Edition: Chapter Three",
+      "source": "https://www.wattpad.com/3192952-float-original-edition-chapter-three",
+      "retrievedAt": "2026-10-01T02:52:40.237211+00:00",
+      "sourceFile": "private/sources/float/03.json",
+      "translationFile": "content/chapters/float/03.md",
+      "sourceSha256": "303a396057612c192dc00345189a6c92ddae4c3e861e501a7c571951496b629a",
+      "translationSha256": "9d58e6ddb643778e825f1d1312642f53ae20f81998769c1c5db0be643906166d",
+      "officialPages": 3,
+      "pagesRead": 3,
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://www.wattpad.com/3192952-float-original-edition-chapter-three",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3192952&page=1",
+          "paragraphs": 28,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 2,
+          "url": "https://www.wattpad.com/3192952-float-original-edition-chapter-three/page/2",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3192952&page=2",
+          "paragraphs": 29,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": false,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        },
+        {
+          "page": 3,
+          "url": "https://www.wattpad.com/3192952-float-original-edition-chapter-three/page/3",
+          "apiUrl": "https://www.wattpad.com/apiv2/?m=storytext&id=3192952&page=3",
+          "paragraphs": 44,
+          "apiMatchesRenderedStoryText": true,
+          "lastPage": true,
+          "currentPartIsBlocked": false,
+          "isPaidPreview": true
+        }
+      ],
+      "sourceParagraphs": 101,
+      "translatedParagraphs": 101,
+      "sourceChars": 11709,
+      "translationChars": 3828,
+      "firstParagraph": {
+        "source": "Somewhere in the crowd, a chant started: *Fight! Fight! Fight!*",
+        "translation": "人群中某处，有人开始喊起口号：*打！打！打！*",
+        "checked": true
+      },
+      "lastParagraph": {
+        "source": "I shuffled upstairs and into the guest room—*my* room—and wondered if I'd ever feel like anything but an outsider in this strange, ungodly humid town.",
+        "translation": "我拖着脚步上了楼，走进客房——*我的*房间——心里想着，在这个陌生、湿热得不像话的小镇上，我是否终有一天能不再觉得自己是个外人。",
+        "checked": true
+      },
+      "alignment": {
+        "idsInOrder": true,
+        "noDuplicates": true,
+        "noEmptyBlocks": true,
+        "reviewedParagraphs": 101
+      },
+      "missing": [],
+      "verified": true
+    }
+  ],
+  "missing": [],
+  "editorialCorrections": [
+    "修正一处模型输出的 U+FFFD 编码损坏；全篇检查无替换字符或异常控制字符。",
+    "修正 chest of drawers、babysat these twins、two steps at a time、door hinges 等误译与动作顺序。",
+    "温度明确按原文美国语境为华氏；高中 senior 译作高中毕业班。",
+    "保留粗口、第一人称视角、普通青春恋爱叙述与原文信息顺序；未改写为导读。",
+    "正常文字的原文强调予以保留；原站只包围空格的空斜体标记不对应可见内容。"
+  ],
+  "limitations": [
+    "本次完成的是全文来源、段落对齐和译文对照核验；未宣称获得读者阅读体验反馈。"
+  ],
+  "rawRetrievalManifest": "private/sources/float/retrieval-manifest.json",
+  "totals": {
+    "sourceParagraphs": 404,
+    "translatedParagraphs": 404,
+    "sourceChars": 50764,
+    "translationChars": 16777,
+    "pagesRead": 13
+  }
+}

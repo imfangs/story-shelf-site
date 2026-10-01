@@ -1,0 +1,16 @@
+{
+  "bookId": "honestly",
+  "authorization": "User confirmed permission on 2026-10-01",
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "https://reedsy.com/short-story/ymkv0n/",
+      "paragraphs": 43,
+      "sourceChars": 5931,
+      "translationChars": 2979,
+      "complete": true,
+      "review": "All 43 source/target paragraphs read; vocative tone, Rice-A-Roni, butter, lanced and half-dozen corrected; final repeated exchange retained.",
+      "sha256": "c5c0268994c2b12aecf982ebc4b94cb4a205043b619a6beccd66fd6072c7032f"
+    }
+  ]
+}

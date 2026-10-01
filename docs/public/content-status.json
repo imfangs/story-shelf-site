@@ -1,0 +1,160 @@
+{
+  "books": [
+    {
+      "id": "the-perfect-run",
+      "requested": 3,
+      "translated": 3,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "第 1 章：快速存档",
+          "href": "/books/the-perfect-run/01",
+          "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/569225/1-quicksave"
+        },
+        {
+          "title": "第 2 章：剧情分支",
+          "href": "/books/the-perfect-run/02",
+          "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/569531/2-story-branching"
+        },
+        {
+          "title": "第 3 章：有荣誉的人",
+          "href": "/books/the-perfect-run/03",
+          "source": "https://www.royalroad.com/fiction/36735/the-perfect-run/chapter/570503/3-men-of-honor"
+        }
+      ]
+    },
+    {
+      "id": "mother-of-learning",
+      "requested": 3,
+      "translated": 3,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "早安，哥哥",
+          "href": "/books/mother-of-learning/01",
+          "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301778/1-good-morning-brother"
+        },
+        {
+          "title": "生活中的小麻烦",
+          "href": "/books/mother-of-learning/02",
+          "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301781/2-lifes-little-problems"
+        },
+        {
+          "title": "苦涩的真相",
+          "href": "/books/mother-of-learning/03",
+          "source": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301784/3-the-bitter-truth"
+        }
+      ]
+    },
+    {
+      "id": "super-supportive",
+      "requested": 3,
+      "translated": 3,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "气泡里的男孩",
+          "href": "/books/super-supportive/01",
+          "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1096481/one-the-boy-in-the-bubble"
+        },
+        {
+          "title": "失误",
+          "href": "/books/super-supportive/02",
+          "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1097958/two-mistakes"
+        },
+        {
+          "title": "九十秒",
+          "href": "/books/super-supportive/03",
+          "source": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1100089/three-90-seconds"
+        }
+      ]
+    },
+    {
+      "id": "float",
+      "requested": 3,
+      "translated": 3,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "第 1 章",
+          "href": "/books/float/01",
+          "source": "https://www.wattpad.com/3126334-float-original-edition-chapter-one"
+        },
+        {
+          "title": "第 2 章",
+          "href": "/books/float/02",
+          "source": "https://www.wattpad.com/3168888-float-original-edition-chapter-two"
+        },
+        {
+          "title": "第 3 章",
+          "href": "/books/float/03",
+          "source": "https://www.wattpad.com/3192952-float-original-edition-chapter-three"
+        }
+      ]
+    },
+    {
+      "id": "the-qb-bad-boy-and-me",
+      "requested": 3,
+      "translated": 0,
+      "exception": "original-only",
+      "chapters": []
+    },
+    {
+      "id": "the-wandering-inn",
+      "requested": 3,
+      "translated": 1,
+      "exception": "source-access",
+      "chapters": [
+        {
+          "title": "1.00",
+          "href": "/books/the-wandering-inn/01",
+          "source": "https://wanderinginn.com/2017/03/03/rw1-00/"
+        }
+      ]
+    },
+    {
+      "id": "heartstopper",
+      "requested": 3,
+      "translated": 3,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "第 1 话：1-1",
+          "href": "/books/heartstopper/01",
+          "source": "https://tapas.io/episode/444220"
+        },
+        {
+          "title": "第 2 话：1-2",
+          "href": "/books/heartstopper/02",
+          "source": "https://tapas.io/episode/451340"
+        },
+        {
+          "title": "第 3 话：1-3",
+          "href": "/books/heartstopper/03",
+          "source": "https://tapas.io/episode/458092"
+        }
+      ]
+    },
+    {
+      "id": "honestly",
+      "requested": 1,
+      "translated": 1,
+      "exception": null,
+      "chapters": [
+        {
+          "title": "说实话",
+          "href": "/books/honestly/01",
+          "source": "https://reedsy.com/short-story/ymkv0n/"
+        }
+      ]
+    },
+    {
+      "id": "yes-mr-knight",
+      "requested": 3,
+      "translated": 0,
+      "exception": "original-only",
+      "chapters": []
+    }
+  ],
+  "translatedUnits": 17
+}

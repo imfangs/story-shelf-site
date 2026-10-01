@@ -1,0 +1,174 @@
+{
+  "bookId": "super-supportive",
+  "checkedAt": "2026-10-01T02:50:14.660977+00:00",
+  "status": "complete",
+  "provenance": "licensed",
+  "authorizationBasis": "2026-10-01 用户确认已获授权并要求完成全文翻译与公开上线；沿用本项目 AGENTS.md 记录。",
+  "scope": "Royal Road 官方连载前三章的完整小说正文；作者运营前后记、平台提示及网页界面不作为正文。",
+  "sourceMethod": "FBT web-discovery read.sh --max-chars 100000 --json，Exa 正文读取；原始抓取与清理后逐段源文均留在 private/sources/super-supportive/。",
+  "chapterOrderVerification": "官方作品目录按 ONE / TWO / THREE 列出章节名；搜索定位对应 Royal Road URL 后，逐章回读标题及正文首尾。",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "气泡里的男孩",
+      "sourceUrl": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1096481/one-the-boy-in-the-bubble",
+      "retrievedAt": "2026-10-01T02:43:01.036067+00:00",
+      "sourceFile": "private/sources/super-supportive/01.json",
+      "translationFile": "content/chapters/super-supportive/01.md",
+      "sourceBlocks": 68,
+      "translationBlocks": 68,
+      "sourceProseParagraphs": 68,
+      "sourceCharacters": 8465,
+      "translationCharacters": 2695,
+      "translationHanCharacters": 2380,
+      "sourceSha256": "69bed9014654bd96eb8451a00528ad32ed2b7da219195841f69dc1e213f8b229",
+      "translationSha256": "be5490a06981433bc5945d0a42037407c8131b496930f1da378ce2268a100e6f",
+      "exactIdOrder": true,
+      "firstBlockCheck": {
+        "id": "p0001",
+        "source": "He woke to the taste of blood and the agony of a sharp, terrifying pain. His ears rang. His head pounded. His bare chest was pressed to the carpet his parents had installed in their new apartment just a week ago.",
+        "translation": "他醒来时，嘴里满是血腥味，一阵尖锐得令人恐惧的剧痛折磨着他。耳朵嗡嗡作响，脑袋一跳一跳地疼。他赤裸的胸口贴着地毯——那是爸爸妈妈刚在一个星期前为新公寓铺上的。",
+        "checked": true
+      },
+      "firstNarrativeParagraphCheck": {
+        "id": "p0001",
+        "source": "He woke to the taste of blood and the agony of a sharp, terrifying pain. His ears rang. His head pounded. His bare chest was pressed to the carpet his parents had installed in their new apartment just a week ago.",
+        "translation": "他醒来时，嘴里满是血腥味，一阵尖锐得令人恐惧的剧痛折磨着他。耳朵嗡嗡作响，脑袋一跳一跳地疼。他赤裸的胸口贴着地毯——那是爸爸妈妈刚在一个星期前为新公寓铺上的。",
+        "checked": true
+      },
+      "lastBlockCheck": {
+        "id": "p0068",
+        "source": "And he couldn’t see anything anymore.",
+        "translation": "于是，他什么也看不见了。",
+        "checked": true
+      },
+      "lastNarrativeParagraphCheck": {
+        "id": "p0068",
+        "source": "And he couldn’t see anything anymore.",
+        "translation": "于是，他什么也看不见了。",
+        "checked": true
+      },
+      "verification": "逐段对照原文翻译并回读；自动检查段落数量、ID次序、空段、异常长度与数字，人工核对首尾、情节、对白、人物与专名。",
+      "issues": [],
+      "excludedMaterial": [
+        "页面标题与导航",
+        "作者开篇欢迎/更新频率前记（非小说正文）",
+        "正文中的 Royal Road 平台提示一条",
+        "作者简介"
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "失误",
+      "sourceUrl": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1097958/two-mistakes",
+      "retrievedAt": "2026-10-01T02:44:47.176159+00:00",
+      "sourceFile": "private/sources/super-supportive/02.json",
+      "translationFile": "content/chapters/super-supportive/02.md",
+      "sourceBlocks": 141,
+      "translationBlocks": 141,
+      "sourceProseParagraphs": 137,
+      "sourceCharacters": 20484,
+      "translationCharacters": 6582,
+      "translationHanCharacters": 5607,
+      "sourceSha256": "49d56826e5db4c0ba7fd1dc0b0b40360fdbf382187f9be6905cbfdce7c37a03d",
+      "translationSha256": "111eb7e67949531bb3f21ecf66aec27c19bcacdc40f608da69cf0fed8978aa00",
+      "exactIdOrder": true,
+      "firstBlockCheck": {
+        "id": "p0001",
+        "source": "Two Weeks Later",
+        "translation": "两周后",
+        "checked": true
+      },
+      "firstNarrativeParagraphCheck": {
+        "id": "p0003",
+        "source": "Alden lay in his hospital bed, watching rain spatter against the windows and stream down the glass in rivulets. Wummy lay beside him, and a handheld video game console was in his lap, chirping occasionally to remind him that he’d left his game on pause.",
+        "translation": "奥尔登躺在病床上，看雨点溅在窗上，顺着玻璃淌成一道道细流。沃米躺在他身边，腿上放着一台掌上游戏机，偶尔啾一声，提醒他游戏还停在暂停画面。",
+        "checked": true
+      },
+      "lastBlockCheck": {
+        "id": "p0141",
+        "source": "Hannah Elber, the superhero, ran from him like he’d attacked her. Nurse Amanda ran toward him, whispering words of comfort. For some reason Alden couldn’t understand in the burning pain of the moment, this was exactly the opposite of what he’d wanted.",
+        "translation": "超级英雄汉娜·埃尔伯逃离了他，像是遭到了他的攻击。阿曼达护士却朝他跑来，轻声说着安慰的话。在那一刻灼烧般的痛苦里，奥尔登不明白是为什么，但这一切，恰恰和他想要的完全相反。",
+        "checked": true
+      },
+      "lastNarrativeParagraphCheck": {
+        "id": "p0141",
+        "source": "Hannah Elber, the superhero, ran from him like he’d attacked her. Nurse Amanda ran toward him, whispering words of comfort. For some reason Alden couldn’t understand in the burning pain of the moment, this was exactly the opposite of what he’d wanted.",
+        "translation": "超级英雄汉娜·埃尔伯逃离了他，像是遭到了他的攻击。阿曼达护士却朝他跑来，轻声说着安慰的话。在那一刻灼烧般的痛苦里，奥尔登不明白是为什么，但这一切，恰恰和他想要的完全相反。",
+        "checked": true
+      },
+      "verification": "逐段对照原文翻译并回读；自动检查段落数量、ID次序、空段、异常长度与数字，人工核对首尾、情节、对白、人物与专名。",
+      "issues": [],
+      "excludedMaterial": [
+        "页面标题、阅读偏好、广告和导航",
+        "正文中的 Royal Road 平台提示一条",
+        "章末手机格式说明（非小说正文）",
+        "支持作者、简介、评论与站点页脚"
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "九十秒",
+      "sourceUrl": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1100089/three-90-seconds",
+      "retrievedAt": "2026-10-01T02:44:47.179415+00:00",
+      "sourceFile": "private/sources/super-supportive/03.json",
+      "translationFile": "content/chapters/super-supportive/03.md",
+      "sourceBlocks": 90,
+      "translationBlocks": 90,
+      "sourceProseParagraphs": 89,
+      "sourceCharacters": 15485,
+      "translationCharacters": 4933,
+      "translationHanCharacters": 4291,
+      "sourceSha256": "6dc3ad76ff990da0de51f30e15a63dab3b439f06c05222d97e92d3673309704e",
+      "translationSha256": "b8cdb22da23ac6ee53e7e7eb8060f9817cf300f20286cb499599a48eb05081fc",
+      "exactIdOrder": true,
+      "firstBlockCheck": {
+        "id": "p0001",
+        "source": "Time passed. Things changed.",
+        "translation": "时间过去了。事情也变了。",
+        "checked": true
+      },
+      "firstNarrativeParagraphCheck": {
+        "id": "p0001",
+        "source": "Time passed. Things changed.",
+        "translation": "时间过去了。事情也变了。",
+        "checked": true
+      },
+      "lastBlockCheck": {
+        "id": "p0090",
+        "source": "— H.E.",
+        "translation": "——H. E.",
+        "checked": true
+      },
+      "lastNarrativeParagraphCheck": {
+        "id": "p0088",
+        "source": "Alden wasn’t interested in the pamphlet itself, but in the scrap of paper that was tucked inside it. There was a phone number and a message:",
+        "translation": "奥尔登感兴趣的并不是小册子本身，而是夹在里面的一小张纸。纸上写着一个电话号码，还有一句留言：",
+        "checked": true
+      },
+      "verification": "逐段对照原文翻译并回读；自动检查段落数量、ID次序、空段、异常长度与数字，人工核对首尾、情节、对白、人物与专名。",
+      "issues": [],
+      "excludedMaterial": [
+        "页面标题、阅读偏好、广告和导航",
+        "正文中的 Royal Road 平台提示一条",
+        "支持作者、简介、评论与站点页脚"
+      ]
+    }
+  ],
+  "totals": {
+    "sourceBlocks": 299,
+    "translationBlocks": 299,
+    "translationCharacters": 14210,
+    "translationHanCharacters": 12278
+  },
+  "notes": [
+    "正文短段、对话顺序及分隔均保留，原文 ### 和 # 分隔统一渲染为 Markdown 水平线。",
+    "专名与设定译名统一保存在私有 glossary.json；未声称这些是已有官方中文译名。",
+    "第二章汉娜称反派在几个月前被系统召唤；第三章马夫博客称几周前成为超人类。两处按各自说话者原文保留，不擅自统一。",
+    "第三章原文 nuts 同时指螺帽、坚果和疯癫；中文保留螺帽与松鼠的荒诞形象，无法完全复现一词三义。",
+    "康妮译为姨妈，已用 Royal Road 第六十五章的搜索回读核对她是母亲较年轻的妹妹；该核对只用于亲属称谓，没有把后续情节加入前三章。",
+    "当前来源是官方页面的纯文本提取。正文完整性在取得的正文与首尾范围上核验，原站所有字重、斜体等样式未逐一复刻。"
+  ],
+  "kinshipSource": "https://www.royalroad.com/fiction/63759/super-supportive/chapter/1313034/sixty-five-intake",
+  "unresolvedBlockers": []
+}

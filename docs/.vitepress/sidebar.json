@@ -1,0 +1,127 @@
+[
+  {
+    "text": "The Perfect Run",
+    "link": "/books/the-perfect-run/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第 1 章：快速存档",
+        "link": "/books/the-perfect-run/01"
+      },
+      {
+        "text": "第 2 章：剧情分支",
+        "link": "/books/the-perfect-run/02"
+      },
+      {
+        "text": "第 3 章：有荣誉的人",
+        "link": "/books/the-perfect-run/03"
+      }
+    ]
+  },
+  {
+    "text": "Mother of Learning",
+    "link": "/books/mother-of-learning/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "早安，哥哥",
+        "link": "/books/mother-of-learning/01"
+      },
+      {
+        "text": "生活中的小麻烦",
+        "link": "/books/mother-of-learning/02"
+      },
+      {
+        "text": "苦涩的真相",
+        "link": "/books/mother-of-learning/03"
+      }
+    ]
+  },
+  {
+    "text": "Super Supportive",
+    "link": "/books/super-supportive/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "气泡里的男孩",
+        "link": "/books/super-supportive/01"
+      },
+      {
+        "text": "失误",
+        "link": "/books/super-supportive/02"
+      },
+      {
+        "text": "九十秒",
+        "link": "/books/super-supportive/03"
+      }
+    ]
+  },
+  {
+    "text": "Float",
+    "link": "/books/float/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第 1 章",
+        "link": "/books/float/01"
+      },
+      {
+        "text": "第 2 章",
+        "link": "/books/float/02"
+      },
+      {
+        "text": "第 3 章",
+        "link": "/books/float/03"
+      }
+    ]
+  },
+  {
+    "text": "The QB Bad Boy and Me",
+    "link": "/books/the-qb-bad-boy-and-me/"
+  },
+  {
+    "text": "The Wandering Inn",
+    "link": "/books/the-wandering-inn/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "1.00",
+        "link": "/books/the-wandering-inn/01"
+      }
+    ]
+  },
+  {
+    "text": "Heartstopper",
+    "link": "/books/heartstopper/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "第 1 话：1-1",
+        "link": "/books/heartstopper/01"
+      },
+      {
+        "text": "第 2 话：1-2",
+        "link": "/books/heartstopper/02"
+      },
+      {
+        "text": "第 3 话：1-3",
+        "link": "/books/heartstopper/03"
+      }
+    ]
+  },
+  {
+    "text": "Honestly",
+    "link": "/books/honestly/",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "说实话",
+        "link": "/books/honestly/01"
+      }
+    ]
+  },
+  {
+    "text": "Yes, Mr Knight",
+    "link": "/books/yes-mr-knight/"
+  }
+]

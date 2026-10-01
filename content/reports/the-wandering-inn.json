@@ -1,0 +1,114 @@
+{
+  "bookId": "the-wandering-inn",
+  "status": "partial",
+  "verifiedAt": "2026-10-01T03:03:15.457866+00:00",
+  "provenance": "licensed",
+  "rightsBasis": "2026-10-01 用户声明已获得授权并要求翻译上线。内容授权与取得受访问控制正文分别记录。",
+  "edition": "作者当前第一卷重写版（rw1-*），保持原作章节编号；未混用2016旧版或重写过程草稿。",
+  "reviewMethod": {
+    "structural": "全部157个源译内容块 ID、数量、顺序、非空及首末段核对通过；保留4条职业/升级/技能系统消息。",
+    "semantic": "4个独立 claude-sonnet-5 校对请求覆盖157块；Agent逐条裁定模型发现，并额外对照首末段、最低长度比长段、人物名和棋术语，完成6条修订。",
+    "sourceReadback": "首章在作者官网现有 Chrome 会话中公开可读，开头与末尾已独立核对。",
+    "decisions": "private/sources/the-wandering-inn/qa-decisions.json"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "sourceNumber": "1.00",
+      "title": "1.00",
+      "sourceUrl": "https://wanderinginn.com/2017/03/03/rw1-00/",
+      "retrievedAt": "2026-10-01T02:57:00.178474+00:00",
+      "sourceFile": "private/sources/the-wandering-inn/01.json",
+      "translationFile": "content/chapters/the-wandering-inn/01.md",
+      "sourceBlockCount": 157,
+      "translationBlockCount": 157,
+      "sourceParagraphCount": 157,
+      "translationParagraphCount": 157,
+      "systemMessageBlocks": 4,
+      "sourceWordCount": 4376,
+      "translationChineseCharacterCount": 7261,
+      "firstBlock": {
+        "id": "p0001",
+        "source": "The inn was dark and empty when the traveller arrived. It appeared suddenly, rising above the gentle hills and valleys of autumnal grass that blew in the wind, green, orange, and even purple in places.",
+        "translation": "旅人抵达时，旅店里一片漆黑，空无一人。它突然映入眼帘，矗立在平缓的丘陵与谷地之上；秋草在风中摇曳，绿的、橙的，有些地方甚至泛着紫色。",
+        "verified": true
+      },
+      "lastBlock": {
+        "id": "p0157",
+        "source": "“…What was that?”",
+        "translation": "“……那是什么？”",
+        "verified": true
+      },
+      "excludedParts": [
+        "site promotional banners before chapter heading",
+        "Chapter Gallery and comment controls after final story line"
+      ],
+      "reviewedBlocks": 157,
+      "modelFlaggedParagraphs": 2,
+      "agentCorrectionDecisions": 6,
+      "sourceSha256": "f4e9a7edb641b94d9e92af4d96c3818a1bd6236efefb714b3f41605e433e8b33",
+      "translationSha256": "68a5e2bbce324dc1780be4a461e51bb89a900dce9424f8cda1064c4be2075df0",
+      "verified": true
+    },
+    {
+      "chapter": 2,
+      "sourceNumber": "1.01",
+      "title": "1.01",
+      "sourceUrl": "https://wanderinginn.com/2017/03/03/rw1-01/",
+      "status": "source_access_required",
+      "verified": false,
+      "sourceBlockCount": null,
+      "translationBlockCount": 0,
+      "reason": "作者正式目录和真实下一章导航均到达 Patreon/密码门槛；Chrome 现有登录态显示 access level=none，所需最低等级 Blue Fruit Juice。正文未取得。"
+    },
+    {
+      "chapter": 3,
+      "sourceNumber": "1.02",
+      "title": "1.02",
+      "sourceUrl": "https://wanderinginn.com/2017/03/03/rw1-02/",
+      "status": "source_access_required",
+      "verified": false,
+      "sourceBlockCount": null,
+      "translationBlockCount": 0,
+      "reason": "作者正式目录和真实下一章导航均到达 Patreon/密码门槛；Chrome 现有登录态显示 access level=none，所需最低等级 Blue Fruit Juice。正文未取得。"
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "chapter": 2,
+      "type": "source_access_required",
+      "sourceUrl": "https://wanderinginn.com/2017/03/03/rw1-01/",
+      "needed": "可合法访问该正文的既有订阅/授权密码，或用户提供已获授权的原文章节。"
+    },
+    {
+      "chapter": 3,
+      "type": "source_access_required",
+      "sourceUrl": "https://wanderinginn.com/2017/03/03/rw1-02/",
+      "needed": "可合法访问该正文的既有订阅/授权密码，或用户提供已获授权的原文章节。"
+    }
+  ],
+  "accessEvidence": "private/sources/the-wandering-inn/access-evidence.json",
+  "publicationBoundary": "仅1.00为完整已验证译文；1.01、1.02未取得正文，不创建占位译文、不标记完成。",
+  "routingChecks": {
+    "tableOfContents": "https://wanderinginn.com/table-of-contents/",
+    "liveTocLinks": [
+      "https://wanderinginn.com/2017/03/03/rw1-00/",
+      "https://wanderinginn.com/2017/03/03/rw1-01/",
+      "https://wanderinginn.com/2017/03/03/rw1-02/"
+    ],
+    "firstChapterNextLinks": [
+      "https://wanderinginn.com/2017/03/03/rw1-01/",
+      "https://wanderinginn.com/2023/03/03/rw1-01/"
+    ],
+    "alternateNextResolvedTo": "https://wanderinginn.com/2017/03/03/rw1-01/",
+    "alternateNextShowsSameGate": true,
+    "archiveIndex": "https://wanderinginn.com/vol-1-archive/",
+    "archiveFirstLinks": [
+      "https://wanderinginn.com/2016/07/27/1-00/",
+      "https://wanderinginn.com/2016/07/27/1-01/",
+      "https://wanderinginn.com/2016/07/30/1-02/"
+    ],
+    "archiveFirstChapterShowsSameGate": true,
+    "conclusion": "已从作者正式目录与正文底部 Next Chapter 实际导航；不是拼接 URL 导致误入非公开页。2023 链接重定向到2017同一正文入口。公开旧版首章亦显示同一订阅/密码访问限制，未能建立完整可读旧版前三章路线。"
+  }
+}

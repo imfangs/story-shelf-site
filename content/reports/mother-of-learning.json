@@ -1,0 +1,125 @@
+{
+  "bookId": "mother-of-learning",
+  "verifiedAt": "2026-10-01T02:53:36.637948+00:00",
+  "status": "verified",
+  "provenance": "licensed",
+  "rightsBasis": "2026-10-01 用户声明已获得授权，并明确要求完整中文翻译后上线。",
+  "retrievalMethod": "FBT web-discovery / Exa，读取 Royal Road 官方作品目录及三章全文；每章上限 100000 字符，实际抓取未触及上限。",
+  "reviewMethod": {
+    "structural": "逐段核对全部 ID、数量、顺序、非空、首末段、原作场景分隔；扫描未译英文和站点插入文字。",
+    "semantic": "18 个独立校对请求覆盖全部 581 个源译内容块，逐段检查遗漏、增写、主体、否定、因果、数字、动作、对白和术语。校对由 claude-sonnet-5 完成，与翻译分开请求。",
+    "agentReadback": "回读全部校对问题，并对照原文裁定；额外核对三章首末段、低长度比段、关键魔法词、跨章重复用语和英文残留。未直接批量套用校对模型的整段改写。",
+    "agentChangesFile": "private/sources/mother-of-learning/qa-decisions.json"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "早安，哥哥",
+      "sourceTitle": "Good Morning Brother",
+      "sourceUrl": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301778/1-good-morning-brother",
+      "retrievedAt": "2026-10-01T02:43:42.064287+00:00",
+      "sourceFile": "private/sources/mother-of-learning/01.json",
+      "translationFile": "content/chapters/mother-of-learning/01.md",
+      "sourceBlockCount": 171,
+      "translationBlockCount": 171,
+      "sourceParagraphCount": 168,
+      "translationParagraphCount": 168,
+      "sectionBreakCount": 3,
+      "sourceWordCount": 7604,
+      "translationChineseCharacterCount": 11704,
+      "firstBlock": {
+        "id": "p0001",
+        "source": "Zorian’s eyes abruptly shot open as a sharp pain erupted from his stomach. His whole body convulsed, buckling against the object that fell on him, and suddenly he was wide awake, not a trace of drowsiness in his mind.",
+        "translation": "卓里安的双眼猛然睁开，一阵剧痛从腹部炸开。他整个身体一阵痉挛，顶着那个压在他身上的东西弓起身子，刹那间彻底清醒，脑子里没有一丝睡意残留。",
+        "verified": true
+      },
+      "lastBlock": {
+        "id": "p0171",
+        "source": "Tired from the long journey, Zorian closed his eyes, intending to take a short nap. He wouldn’t wake up until tomorrow morning.",
+        "translation": "长途旅行让他疲惫不堪，卓里安闭上了眼睛，打算小睡一会儿。结果他一直睡到了第二天早上才醒来。",
+        "verified": true
+      },
+      "excludedSiteInsertionCount": 1,
+      "exclusionReason": "仅移除抓取页面中明显独立插入的反盗版提醒；原文情节及全部对白保留。广告、作者推广、站点导航和评论区未纳入正文。",
+      "reviewedBlocks": 171,
+      "modelFlaggedParagraphs": 4,
+      "agentCorrectionDecisions": 5,
+      "sourceSha256": "ecc9aaf9545cc57641922c1db84d4191b5eaf7576404ce475fef8d7b50ec1e2c",
+      "translationSha256": "d1dca2dcc619c569b2d65af40067a8fbe1b996ec8a130d30584a00fafebcdb94",
+      "verified": true
+    },
+    {
+      "chapter": 2,
+      "title": "生活中的小麻烦",
+      "sourceTitle": "Life’s Little Problems",
+      "sourceUrl": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301781/2-lifes-little-problems",
+      "retrievedAt": "2026-10-01T02:43:42.065827+00:00",
+      "sourceFile": "private/sources/mother-of-learning/02.json",
+      "translationFile": "content/chapters/mother-of-learning/02.md",
+      "sourceBlockCount": 195,
+      "translationBlockCount": 195,
+      "sourceParagraphCount": 192,
+      "translationParagraphCount": 192,
+      "sectionBreakCount": 3,
+      "sourceWordCount": 7508,
+      "translationChineseCharacterCount": 12314,
+      "firstBlock": {
+        "id": "p0001",
+        "source": "Although the academy loved saying they were an elite institution thanks to the excellent quality of its teaching staff, the truth was that the main reason for their supremacy was their library. Through contributions of its alumni, generous budget allocations by a number of former headmasters, quirks of local criminal law, and sheer historical accident, the academy had built a library without equal. You could find anything you wanted, regardless of whether the topic was magical or not – there was a whole section reserved for steamy romance novels, for instance. The library was so massive it had actually expanded into the tunnels beneath the city. Many of the lower levels were only accessible to guild mages, so it was only now that Zorian was allowed to browse their contents. Fortunately, the library was open during the weekend, so the very first thing Zorian did when he woke up was descend into these depths to see what he'd been missing these past two years and maybe fill out his spellbook a bit.",
+        "translation": "虽然学院总喜欢宣称，自己之所以能稳居一流学府之列是靠教员队伍的卓越水准，但实情是，他们领先其他学府的主要原因是图书馆。借着历届校友的捐赠、好几位前任校长慷慨的预算拨款、地方刑法中的某些特殊规定，再加上纯属历史偶然的因素，学院建起了一座无可匹敌的图书馆。不管想找什么资料，无论是不是与魔法有关的题目，都能在这里找到——比如说，这里甚至专门设有一整个区域存放那些香艳的爱情小说。图书馆规模庞大，实际上已经扩展到城市地下的隧道之中。许多下层区域只对公会法师开放，所以直到现在，卓里安才被允许浏览其中的藏书。幸运的是，图书馆在周末也照常开放，所以他一醒来，第一件事就是下到这些深处，看看自己这两年都错过了些什么，顺便再给自己的法术书多添些内容。",
+        "verified": true
+      },
+      "lastBlock": {
+        "id": "p0195",
+        "source": "He was starting to hate those two words.",
+        "translation": "他开始厌恶这两个字了。",
+        "verified": true
+      },
+      "excludedSiteInsertionCount": 1,
+      "exclusionReason": "仅移除抓取页面中明显独立插入的反盗版提醒；原文情节及全部对白保留。广告、作者推广、站点导航和评论区未纳入正文。",
+      "reviewedBlocks": 195,
+      "modelFlaggedParagraphs": 4,
+      "agentCorrectionDecisions": 10,
+      "sourceSha256": "e404e011390da2f691d7196df16345d77dd063538f22f24e9a0104be0213dae8",
+      "translationSha256": "deca61172388e815ffea58f51ba7c4c069be377ff481bc9c38d86419bd60b6a2",
+      "verified": true
+    },
+    {
+      "chapter": 3,
+      "title": "苦涩的真相",
+      "sourceTitle": "The Bitter Truth",
+      "sourceUrl": "https://www.royalroad.com/fiction/21220/mother-of-learning/chapter/301784/3-the-bitter-truth",
+      "retrievedAt": "2026-10-01T02:43:42.067050+00:00",
+      "sourceFile": "private/sources/mother-of-learning/03.json",
+      "translationFile": "content/chapters/mother-of-learning/03.md",
+      "sourceBlockCount": 215,
+      "translationBlockCount": 215,
+      "sourceParagraphCount": 211,
+      "translationParagraphCount": 211,
+      "sectionBreakCount": 4,
+      "sourceWordCount": 7164,
+      "translationChineseCharacterCount": 11250,
+      "firstBlock": {
+        "id": "p0001",
+        "source": "If someone had asked Zorian at the end of the first week what classes he thought he would have the most trouble with, he would have answered Spell Formulas and Advanced Mathematics. Combat magic maybe. Two weeks later, he could safely say the answer was ‘Warding’.",
+        "translation": "如果在第一周末有人问卓里安，他认为自己哪门课会最吃力，他会回答法术公式和高等数学。战斗魔法也许算一个。两周之后，他可以很有把握地说，答案是“结界术”。",
+        "verified": true
+      },
+      "lastBlock": {
+        "id": "p0215",
+        "source": "As he walked away, it occurred to Zorian that he should have probably made some kind of sleeping potion for himself while he was at it – he had to get plenty of rest tonight, because he certainly wouldn’t get any tomorrow.",
+        "translation": "走开的时候，卓里安忽然想到，自己刚才在那里的时候，其实应该顺手给自己做点安眠药水之类的东西——今晚他得好好休息，因为明天肯定是没机会休息了。",
+        "verified": true
+      },
+      "excludedSiteInsertionCount": 1,
+      "exclusionReason": "仅移除抓取页面中明显独立插入的反盗版提醒；原文情节及全部对白保留。广告、作者推广、站点导航和评论区未纳入正文。",
+      "reviewedBlocks": 215,
+      "modelFlaggedParagraphs": 2,
+      "agentCorrectionDecisions": 3,
+      "sourceSha256": "e78879cf5d497a707f0aec309b981f42299adc7c96c2c5adaed2ed8f74341f64",
+      "translationSha256": "620ca6c04ea07a11b252c4f67b644f6ec2ca5399275cf8c070502164bb78d000",
+      "verified": true
+    }
+  ],
+  "unresolvedIssues": []
+}

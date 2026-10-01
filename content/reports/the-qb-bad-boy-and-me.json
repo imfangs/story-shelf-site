@@ -1,0 +1,144 @@
+{
+  "bookId": "the-qb-bad-boy-and-me",
+  "checkedAt": "2026-10-01T02:55:05.628371+00:00",
+  "status": "blocked",
+  "officialTitle": "Sidelined: The QB and Me",
+  "previousTitle": "The QB Bad Boy and Me",
+  "chineseTitle": "四分卫与我",
+  "chineseTitleStatus": "沿用站内译名；未核实官方中文出版名，不将其声称为官方中文书名。",
+  "author": {
+    "displayName": "Tay",
+    "nameInCatalog": "Tay Marley",
+    "profile": "https://www.wattpad.com/user/tayxwriter",
+    "authorWebsiteNamedInOfficialNote": "https://www.taymarley.com"
+  },
+  "officialSource": "https://www.wattpad.com/story/124711439-sidelined-the-qb-and-me",
+  "edition": "官方 Wattpad Originals 连载版；不是纸书出版版。作者说明明确两版存在差异。",
+  "editionEvidence": "https://www.wattpad.com/621979090-sidelined-the-qb-and-me-important-author-note",
+  "provenance": "licensed",
+  "authorizationBasis": "沿用本项目 AGENTS.md 记录的用户授权声明。",
+  "sourceStatus": "前三章全文已取得，5/4/4页；没有付费或登录阻塞，没有绕过付费锁。",
+  "translationStatus": "未生成完整译文。未发布删节内容或以导读替代整章。",
+  "blocker": "正文可推算主角约17岁，包含对未成年人性器官、性表现和身体的性化描写。系统限制不允许生成这部分翻译；这是内容限制，不是版权授权或网页访问限制。",
+  "sourceMethod": "读取官方网页 window.__remixContext 目录定位真正的 (1)/(2)/(3) 小说章节；逐章读取 window.prefetched 页数与开放标志；访问页面声明的公开 storytext URL，按 data-p-id 收集全部分页。首尾页 API 段落与官方页面内嵌 storyText 完全一致。",
+  "chapters": [
+    {
+      "chapter": 1,
+      "officialTitle": "(1) \"Are you lost?\"",
+      "titleZh": "你迷路了吗？",
+      "sourceUrl": "https://www.wattpad.com/478363596-sidelined-the-qb-and-me-1-are-you-lost",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/01.json",
+      "sourcePages": 5,
+      "retrievedPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "firstAndLastPageMatchedOfficialEmbeddedStoryText": true,
+      "currentPartIsBlocked": false,
+      "isPaidPreview": true,
+      "lastPage": true,
+      "sourceBlocks": 100,
+      "sourceCharacters": 17525,
+      "translationBlocks": 0,
+      "translationStatus": "not_generated",
+      "firstSourceParagraphId": "c9d8298f557ad9038a8185282e7d48d8",
+      "lastSourceParagraphId": "b3b061fe782fffb2d8cd738afba7f0e7",
+      "firstParagraph": "\"Dallas! You've had all summer to lie around, get up and do laps. Now!\"",
+      "sourceSha256": "80029227700c1ddd8546ff59b22c67dd706ce213a1e8ee3d2c41056056ecd535",
+      "excludedMaterial": [
+        "西语出版宣传段落与宣传图片",
+        "非正文作者前后记",
+        "章末投票、爱心、留言提示及空媒体段落"
+      ],
+      "lastParagraphDescription": "Drayton 留下参加烧烤，并对 Dallas 的衣着作性化评论；原句仅在私有来源保存。"
+    },
+    {
+      "chapter": 2,
+      "officialTitle": "(2) \"I am so offended,\"",
+      "titleZh": "我太受伤了。",
+      "sourceUrl": "https://www.wattpad.com/479318797-sidelined-the-qb-and-me-2-i-am-so-offended",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/02.json",
+      "sourcePages": 4,
+      "retrievedPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "firstAndLastPageMatchedOfficialEmbeddedStoryText": true,
+      "currentPartIsBlocked": false,
+      "isPaidPreview": true,
+      "lastPage": true,
+      "sourceBlocks": 99,
+      "sourceCharacters": 16078,
+      "translationBlocks": 0,
+      "translationStatus": "not_generated",
+      "firstSourceParagraphId": "c8b60efd1ef24cea236f84e8d4a9a7ba",
+      "lastSourceParagraphId": "0385df6fa4bbf958f33954addf7a012e",
+      "firstParagraph": "\"They're talking about football. Like extensively. While they stand around the barbecue like a couple of pals from way back.\"",
+      "lastParagraph": "\"Night Dallas.\"",
+      "sourceSha256": "02d84af17275fc2aa2e76d054580ddd1ddb283f9c72941dc88faac434329316d",
+      "excludedMaterial": [
+        "西语出版宣传段落与宣传图片",
+        "非正文作者前后记",
+        "章末投票、爱心、留言提示及空媒体段落"
+      ]
+    },
+    {
+      "chapter": 3,
+      "officialTitle": "(3) \"You totally did!\"",
+      "titleZh": "你明明就有！",
+      "sourceUrl": "https://www.wattpad.com/481228287-sidelined-the-qb-and-me-3-you-totally-did",
+      "sourceFile": "private/sources/the-qb-bad-boy-and-me/03.json",
+      "sourcePages": 4,
+      "retrievedPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "firstAndLastPageMatchedOfficialEmbeddedStoryText": true,
+      "currentPartIsBlocked": false,
+      "isPaidPreview": true,
+      "lastPage": true,
+      "sourceBlocks": 88,
+      "sourceCharacters": 14980,
+      "translationBlocks": 0,
+      "translationStatus": "not_generated",
+      "firstSourceParagraphId": "fc1db258394ea7dc6c24cf634816c616",
+      "lastSourceParagraphId": "0fcfda072ff193e860276164d66afc62",
+      "firstParagraph": "\"So what's the damage, Harry?\"",
+      "lastParagraph": "\"Alright, that actually sounds fun.\" I smile knowing that I've made her week. I'm the only person that she has to do these things with and I don't want her to miss out on account of me not giving two shits about it.",
+      "sourceSha256": "794d296e6349dfd6aa6320cba70bcaaaafdc7e459a56cb0fea88a703d5a47fa3",
+      "excludedMaterial": [
+        "西语出版宣传段落与宣传图片",
+        "非正文作者前后记",
+        "章末投票、爱心、留言提示及空媒体段落"
+      ]
+    }
+  ],
+  "totals": {
+    "sourcePages": 13,
+    "sourceBlocks": 287,
+    "sourceCharacters": 48583,
+    "translationBlocks": 0
+  },
+  "checks": {
+    "chapterOrder": true,
+    "allDeclaredPagesRetrieved": true,
+    "allFirstAndLastPagesOpen": true,
+    "lastPagesConfirmed": true,
+    "sourceParagraphIdsUnique": true,
+    "outsideModelTranslationInvoked": false
+  },
+  "notes": [
+    "书页 firstPartId 指向最新影视宣传，并非小说第一章；已跳过 7 条宣传与作者说明，从编号 (1) 开始。",
+    "官方目录显示第8章起为付费锁章。本任务只读前三章，未尝试取锁章正文。",
+    "对角色年龄的推算依据与受限段落ID保留在 private/sources/the-qb-bad-boy-and-me/content-review.json。",
+    "第一章结尾本身包含受限表述，因此报告不复制其全文末段；完整源文仍在私有档案。"
+  ],
+  "nextAction": "在整体交付中准确说明本书尚无完整译文，保留官方阅读入口。"
+}
